@@ -1,0 +1,31 @@
+Source: gflags
+Priority: extra
+Maintainer: Nelson Elhage <nelhage@nelhage.com>
+Build-Depends: debhelper (>= 8.0.0), autotools-dev
+Standards-Version: 3.9.2
+Section: libs
+Homepage: http://code.google.com/p/gflags/
+#Vcs-Git: git://git.debian.org/collab-maint/gflags.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/gflags.git;a=summary
+
+Package: gflags-dev
+Section: libdevel
+Architecture: any
+Depends: gflags2 (= ${binary:Version})
+Description: Commandline flags module for C++ - development files
+ The gflags package contains a library that implements commandline
+ flags processing. As such it's a replacement for getopt(). It has
+ increased flexibility, including built-in support for C++ types like
+ string, and the ability to define flags in the source file in which
+ they're used.
+
+Package: gflags2
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Commandline flags module for C++ - shared library
+ The gflags package contains a library that implements commandline
+ flags processing. As such it's a replacement for getopt(). It has
+ increased flexibility, including built-in support for C++ types like
+ string, and the ability to define flags in the source file in which
+ they're used.

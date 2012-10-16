@@ -1,0 +1,5 @@
+gflags (0~20121016.r72-1) precise; urgency=low
+
+  * Initial release
+
+ -- Nelson Elhage <nelhage@nelhage.com>  Tue, 16 Oct 2012 09:21:46 -0700
