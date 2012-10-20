@@ -1,3 +1,9 @@
+gflags (0~20121016.r72-1~lucid1stripe1) precise; urgency=low
+
+  * No-changes rebuild for stripe
+
+ -- Nelson Elhage <nelhage@nelhage.com>  Sat, 20 Oct 2012 14:40:56 -0700
+
 gflags (0~20121016.r72-1~lucid1) lucid; urgency=low
 
   * Backport to Ubuntu Lucid.
