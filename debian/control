@@ -1,7 +1,7 @@
 Source: gflags
 Priority: extra
 Maintainer: Nelson Elhage <nelhage@nelhage.com>
-Build-Depends: debhelper (>= 8.0.0), autotools-dev
+Build-Depends: debhelper, autotools-dev
 Standards-Version: 3.9.2
 Section: libs
 Homepage: http://code.google.com/p/gflags/

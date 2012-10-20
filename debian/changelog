@@ -1,3 +1,9 @@
+gflags (0~20121016.r72-1~lucid1) lucid; urgency=low
+
+  * Backport to Ubuntu Lucid.
+
+ -- Nelson Elhage <nelhage@nelhage.com>  Sat, 20 Oct 2012 11:08:15 -0700
+
 gflags (0~20121016.r72-1) precise; urgency=low
 
   * Initial release
