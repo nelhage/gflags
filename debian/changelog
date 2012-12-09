@@ -1,3 +1,9 @@
+gflags (0~20121016.r72-1quantal1) quantal; urgency=low
+
+  * Rebuild for Quantal Quetzal.
+
+ -- Nelson Elhage <nelhage@nelhage.com>  Sat, 08 Dec 2012 16:37:23 -0800
+
 gflags (0~20121016.r72-1) precise; urgency=low
 
   * Initial release
